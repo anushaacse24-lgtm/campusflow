@@ -8,7 +8,7 @@ function App() {
 
   const sendTask = async () => {
 
-    await fetch("https://campusflow-hm4a.onrender.com",{
+    await fetch("https://campusflow-hm4a.onrender.comgit",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
